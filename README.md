@@ -1,1 +1,1 @@
-# electronicsapi-frontend
+# electronics-api-frontend
