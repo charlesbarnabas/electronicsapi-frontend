@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Product</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+  <div class="max-w-xl mx-auto bg-white p-6 rounded-md shadow">
+    <h2 class="text-2xl font-bold mb-4">Add New Product</h2>
+    <form id="addProductForm">
+      <input type="text" name="name" placeholder="Product Name" class="w-full mb-3 p-2 border rounded" required>
+      <input type="text" name="category" placeholder="Category" class="w-full mb-3 p-2 border rounded" required>
+      <input type="number" name="price" placeholder="Price" class="w-full mb-3 p-2 border rounded" required>
+      <input type="file" name="image" accept="image/*" class="w-full mb-4">
+      <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Add Product</button>
+    </form>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
